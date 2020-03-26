@@ -27,4 +27,21 @@ describe('routes - movies', () => {
             });
         });
     });
+
+    // describe('POST /movies', () => {
+    //     it('should response with status 201', done => {
+    //         request.post('/api/movies').expect(201, done);
+    //     })
+
+    //     it('should response with the movie id', done => {
+    //         request.post('/api/movies').end((err, res) => {
+    //             assert.deepEqual(res.body, {
+    //                 data: moviesMock[0].id,
+    //                 message: 'movie created'
+    //             });
+
+    //             done();
+    //         })
+    //     })
+    // })
 });
