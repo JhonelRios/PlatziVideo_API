@@ -1,0 +1,7 @@
+const FIVE_MIN_IN_SECONDS = 300;
+const SIXTY_MIN_IN_SECONDS = 3600;
+
+module.exports = {
+    FIVE_MIN_IN_SECONDS,
+    SIXTY_MIN_IN_SECONDS
+}
