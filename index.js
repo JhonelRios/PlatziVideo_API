@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const helmet = require('helmet');
 const app = express();
 
 const { config } = require('./config/index');
@@ -11,8 +12,9 @@ const userMoviesApi = require('./routes/userMovies');
 const { logErrors, wrapErrors, errorHandler } = require('./utils/middleware/errorHandlers');
 const notFoundHandler = require('./utils/middleware/notFoundHandler')
 
-// CORS
+// CORS y helmet
 app.use(cors());
+app.use(helmet());
 
 // Body Parser
 app.use(express.json());
