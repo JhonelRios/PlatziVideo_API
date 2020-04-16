@@ -1,5 +1,6 @@
 # PlatziVideo_API
 Ejercicio práctico del curso de backend con node.JS
+El link del proyecto: [PlatziVideo API](https://platzivideos.jhonelrios.now.sh/api/movies)
 
 # Cómo funciona
   * `npm install` para instalar las dependencias.
