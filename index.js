@@ -24,6 +24,10 @@ authApi(app);
 moviesApi(app);
 userMoviesApi(app);
 
+app.get('/', (req, res) => {
+    res.status(200).send('API para Platzivideos, el proyecto de la Escuela de JavaScript de Platzi');
+})
+
 // Catch 404
 app.use(notFoundHandler);
 

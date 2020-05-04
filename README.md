@@ -1,7 +1,9 @@
 # PlatziVideo_API
 Ejercicio práctico del curso de backend con Node.JS
 
-El link del proyecto: [PlatziVideo API](https://platzivideos.jhonelrios.now.sh/api/movies)
+El link del proyecto: [PlatziVideo API](https://platzivideos-api.jhonelrios.now.sh/)
+
+Usa autenticación por JWT, por lo que no puede ser accesible desde el navegador.
 
 # Cómo funciona
   * `npm install` para instalar las dependencias.
